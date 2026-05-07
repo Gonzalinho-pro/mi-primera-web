@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Gonza</title>
+<title>Gonzalo</title>
 
 <style>
 
@@ -154,7 +154,7 @@ margin-top:15px;
 
 <div class="container">
 
-<h1>⚽ Gonza ⚽</h1>
+<h1>⚽ Gonzalo ⚽</h1>
 
 <div class="reloj" id="hora"></div>
 
@@ -207,7 +207,7 @@ Puntos: <span id="puntos">0</span>
 </div>
 
 <audio id="musica" loop>
-<source src="vynth-brazilian-funk-toca-toca-484084.mp3" type="audio/mpeg">
+<source src="./vynth-brazilian-funk-toca-toca-484084.mp3" type="audio/mpeg">
 </audio>
 
 <script>
@@ -227,6 +227,7 @@ document.getElementById("puntos").innerHTML = puntos;
 const musica = document.getElementById("musica");
 
 function playMusic(){
+musica.volume = 1;
 musica.play();
 }
 
